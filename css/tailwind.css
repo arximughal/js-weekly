@@ -33,3 +33,19 @@ input:-webkit-autofill:focus {
 .katex-display {
   overflow: auto hidden;
 }
+
+.issues > div {
+  border-top: 1px solid rgb(55 65 81);
+}
+
+.issues > div:first-child {
+  border-top: none;
+}
+
+.issues > div:nth-child(2) {
+  border-top: none;
+}
+
+.issues {
+  border-top: none !important;
+}
